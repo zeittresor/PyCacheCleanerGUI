@@ -4,6 +4,8 @@ A small Windows-friendly GUI tool to **find and delete Python `__pycache__` fold
 
 `__pycache__` stores compiled bytecode (`.pyc`). Deleting it should be safe: Python will recreate it when needed. The trade-off is a slightly slower first import after cleaning.
 
+<img width="1378" height="793" alt="PyCacheCleanerGUI" src="https://github.com/user-attachments/assets/5cdb803b-45a6-4927-b57c-fe51bf2d2d16" />
+
 ## Features
 
 - GUI (PyQt6 preferred, PyQt5 fallback)
