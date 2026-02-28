@@ -2,7 +2,7 @@
 
 A small Windows-friendly GUI tool to **find and delete Python `__pycache__` folders** so you can reclaim disk space.
 
-`__pycache__` stores compiled bytecode (`.pyc`). Deleting it is safe: Python will recreate it when needed. The trade-off is a slightly slower first import after cleaning.
+`__pycache__` stores compiled bytecode (`.pyc`). Deleting it should be safe: Python will recreate it when needed. The trade-off is a slightly slower first import after cleaning.
 
 ## Features
 
